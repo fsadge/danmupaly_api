@@ -32,8 +32,8 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ ​secrets.DOCKER_nngtry }}
-          password: ${{ secrets.DOCKER_Ajt!wzVsY9K5E.6 }}
+          username: ${{ ​secrets.nngtry }}
+          password: ${{ secrets.Ajt!wzVsY9K5E.6 }}
 
       # 构建 Docker 镜像，并指定平台为 amd64 和 arm64，推送到 Docker Hub
       # 使用单条命令同时指定两个标签，避免重复构建
